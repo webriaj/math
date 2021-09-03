@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todays Work List</title>
+    
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+
+</head>
+<body>
+   <header style="background-color: aqua;">
+       <div class="container">
+           <h2 class="title text-centery" style="color: white;text-align: center;" >Math Calculator</h2>
+       </div>
+   </header>
+   <section>
+       <div class="container">
+           <div class="row">
+               <div class="col-6 ">
+                   <h2 class="title" style="font-size: 15px;">Calculate Root</h2>
+                   <input placeholder="Enter Number" type="number" id="sqr" style="border: 1px solid;
+                   height: 25px;width: 98%;font-size: 15px;">
+                   <button class="mt-2" onclick="rootCal()">Enter</button>
+                    <p class="mt-2" id="sqrres" style="border: 1px solid;
+                    height: 25px;font-size: 15px;"></p>
+               </div>
+               <div class="col-6">
+                    <h2 class="title" style="font-size: 15px;">Calculate Square</h2>
+                    <input placeholder="Value" type="number" id="rt" style="border: 1px solid;
+                    height: 25px;width: 98%;">
+                    <input placeholder="Power" type="number" id="sqvalue" style="border: 1px solid;
+                    height: 25px;width: 50%;font-size: 12px;">
+                    <button class="mt-2" onclick="sqrCal()">Enter</button>
+                    <p class="mt-2" id="rtres" style="border: 1px solid;
+                    height: 25px;font-size: 15px;"></p>
+               </div>
+           </div>
+       </div>
+   </section>
+
+    <!------------Javascript---------->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/app.js"></script>
+    
+</body>
+</html>
